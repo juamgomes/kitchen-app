@@ -1,42 +1,74 @@
 {
   "users": [
-     {
+    {
       "email": "admin@admin.com",
       "password": "$2a$10$M5BnnhfAetqcjs475.rlKOALrO//P6QI3IPjdddTQ8ZDHaXHPxZ4K",
       "name": "admin",
       "phone": "123123",
-      "id": 1
+      "id": "1"
     }
   ],
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Meat"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Vegetables"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Dairy"
+    },
+    {
+      "id": "dd98",
+      "name": "Juan Martins Gomes "
+    },
+    {
+      "id": "ad83",
+      "name": "Juan Martins Gomes "
+    },
+    {
+      "id": "a9f3",
+      "name": "Lucas"
+    },
+    {
+      "id": "c69a",
+      "name": "Pedro"
+    },
+    {
+      "id": "21ab",
+      "name": "Pedro"
+    },
+    {
+      "id": "2d4f",
+      "name": "r"
+    },
+    {
+      "id": "fabd",
+      "name": "ffffrr"
+    },
+    {
+      "id": "93a1",
+      "name": "s"
     }
   ],
   "products": [
     {
-      "id": 101,
+      "id": "101",
       "name": "Beef",
       "supplier": "Maranata",
       "categoryId": 1
     },
     {
-      "id": 102,
+      "id": "102",
       "name": "Tomatoes",
       "supplier": "",
       "categoryId": 2
     },
     {
-      "id": 103,
+      "id": "103",
       "name": "Milk",
       "supplier": "Porto Alegre",
       "categoryId": 3
@@ -44,7 +76,7 @@
   ],
   "stock": [
     {
-      "id": 1001,
+      "id": "1001",
       "productId": 101,
       "quantity": 50,
       "expires": "2023-08-31",
@@ -52,7 +84,7 @@
       "added": "2023-08-01"
     },
     {
-      "id": 1002,
+      "id": "1002",
       "productId": 102,
       "quantity": 100,
       "expires": "2023-08-25",
@@ -60,7 +92,7 @@
       "added": "2023-08-02"
     },
     {
-      "id": 1003,
+      "id": "1003",
       "productId": 103,
       "quantity": 20,
       "expires": "2023-09-10",
